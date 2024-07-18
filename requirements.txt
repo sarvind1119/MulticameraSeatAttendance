@@ -1,0 +1,6 @@
+opencv-python
+opencv-python
+numpy
+natsort
+ultralytics
+pillow
