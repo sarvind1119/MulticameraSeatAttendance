@@ -1,0 +1,13 @@
+seat_number,seat_coordinates,snapshot,Snapshot status,Snapshot Time
+1,"[547, 609, 384, 467]",snapshot_1,Absent,18-07-2024 11:32
+2,"[562, 611, 255, 353]",snapshot_1,Absent,18-07-2024 11:32
+3,"[554, 612, 174, 241]",snapshot_1,Absent,18-07-2024 11:32
+4,"[566, 618, 98, 173]",snapshot_1,Absent,18-07-2024 11:32
+1,"[547, 609, 384, 467]",snapshot_2,Absent,18-07-2024 11:36
+2,"[562, 611, 255, 353]",snapshot_2,Absent,18-07-2024 11:36
+3,"[554, 612, 174, 241]",snapshot_2,Absent,18-07-2024 11:36
+4,"[566, 618, 98, 173]",snapshot_2,Absent,18-07-2024 11:36
+1,"[547, 609, 384, 467]",snapshot_3,Absent,18-07-2024 11:40
+2,"[562, 611, 255, 353]",snapshot_3,Absent,18-07-2024 11:40
+3,"[554, 612, 174, 241]",snapshot_3,Absent,18-07-2024 11:40
+4,"[566, 618, 98, 173]",snapshot_3,Absent,18-07-2024 11:40

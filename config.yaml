@@ -1,0 +1,61 @@
+# Camera Configuration
+cameras:
+  camera1:
+    url: "rtsp://admin:Nimda@2024@10.10.116.70:554/media/video1"
+  camera2:
+    url: "rtsp://admin:Nimda@2024@10.10.116.71:554/media/video1"
+  camera3:
+    url: "rtsp://admin:Nimda@2024@10.10.116.72:554/media/video1"
+  camera4:
+    url: "rtsp://admin:Nimda@2024@10.10.116.73:554/media/video1"
+  camera5:
+    url: "rtsp://admin:Nimda@2024@10.10.116.74:554/media/video1"
+  camera6:
+    url: "rtsp://admin:Nimda@2024@10.10.116.75:554/media/video1"
+
+# Paths Configuration
+paths:
+  roi_folder: "roi_data"
+  snapshot_base_folder: "snapshots"
+  transformed_result_folder: "transformed_result"
+  merged_result_file: "transformed_result/merged_result.csv"
+
+# Image Processing Configuration
+image_processing:
+  resize_width: 1661
+  resize_height: 750
+  model_path: "yolov8x.pt"
+
+# Snapshot Configuration
+snapshots:
+  num_snapshots: 5
+  delay_between_snapshots: 1  # in seconds
+
+# CSV Configuration
+csv:
+  fieldnames:
+    - seat_number
+    - seat_coordinates
+    - snapshot
+    - status
+    - date_time
+  columns_to_keep:
+    - seat_number
+    - seat_coordinates
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+# CSV Transformation Configuration
+csv_transformation:
+  snapshot_prefix: "snapshot_"
+  time_suffix: "_time"
+  output_columns:
+    - seat_number
+    - seat_coordinates
+    - snapshot
+    - Snapshot status
+    - Snapshot Time
+    - camera
